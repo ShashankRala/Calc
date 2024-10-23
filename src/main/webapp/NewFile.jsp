@@ -45,10 +45,10 @@
 </head>
 <body>   
     <img src="images/laughing.gif" alt="laugh emoji GIF"> <!-- Relative path for the image -->
-    <h1>Joke, Ok The Day!</h1>
+    <h1>Joke, OF The Day!</h1>
     <h3>😊<%=request.getParameter("joke") %></h3>
     
-    <form action="MyServlet">
+    <form action="MyServlet" >
     <input name="num1" placeholder="First Number"></input>
     <input name="num2" placeholder="Second Number"></input>
     
@@ -56,7 +56,8 @@
     <button name="bt1" value="2">-</button>
     <button name="bt1" value="3">x</button>
     <button name="bt1" value="4">/</button>
-    </form>
+    </form> 
+    
     <h1>Ans=<%=request.getParameter("ans") %></h1>
 </body>
 </html>

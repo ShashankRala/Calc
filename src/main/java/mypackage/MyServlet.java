@@ -45,7 +45,7 @@ public class MyServlet extends HttpServlet {
 		
 		//int sum = num1 + num2;
 		
-		int ans = 0;
+		int ans ;
 		if(str3.equals("1")) ans=a+b;
 		else if(str3.equals("2")) ans=a-b;
 		else if(str3.equals("3")) ans=a*b;
